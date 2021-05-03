@@ -24,9 +24,9 @@ namespace MB.Infrastructure.EfCore
             Save();
         }
             
-        public ArticleCategory GetBy(int Id)
+        public ArticleCategory GetBy(int id)
         {
-           return _dbContext.ArticleCategories.FirstOrDefault(x => x.Id == Id);
+           return _dbContext.ArticleCategories.FirstOrDefault(x => x.Id == id);
         }
 
         public void Save()

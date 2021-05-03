@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MB.Presentation.Razor"
   ],
+  "SelectedNode": "\\MB.Presentation.Razor\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

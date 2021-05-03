@@ -65,6 +65,8 @@ A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\scopedcss\bundl
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.TagHelpers.input.cache
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.TagHelpers.output.cache
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.RazorCoreGenerate.cache
+A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Create.cshtml.g.cs
+A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\List.cshtml.g.cs
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Error.cshtml.g.cs
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Index.cshtml.g.cs
@@ -88,5 +90,3 @@ A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\ref\MB.Presentation.Razor.dll
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.pdb
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.genruntimeconfig.cache
-A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Create.cshtml.g.cs
-A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs

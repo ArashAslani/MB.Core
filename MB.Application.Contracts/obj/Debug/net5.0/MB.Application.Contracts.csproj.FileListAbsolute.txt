@@ -2,6 +2,7 @@ A:\Project\MasterBloggger\MB.Application.Contracts\bin\Debug\net5.0\MB.Applicati
 A:\Project\MasterBloggger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.dll
 A:\Project\MasterBloggger\MB.Application.Contracts\bin\Debug\net5.0\ref\MB.Application.Contracts.dll
 A:\Project\MasterBloggger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.pdb
+A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csprojAssemblyReference.cache
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfoInputs.cache
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfo.cs

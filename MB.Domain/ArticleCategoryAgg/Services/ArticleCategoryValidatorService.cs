@@ -3,9 +3,14 @@ using MB.Domain.ArticleCategoryAgg.Exception;
 
 namespace MB.Domain.ArticleCategoryAgg.Services
 {
-    class ArticleCategoryValidatorService : IArticleCategoryValidatorService
+    public class ArticleCategoryValidatorService : IArticleCategoryValidatorService
     {
         private readonly IArticleCategoryRepository _articleCategoryRepository;
+
+        public ArticleCategoryValidatorService(IArticleCategoryRepository articleCategoryRepository)
+        {
+            _articleCategoryRepository = articleCategoryRepository;
+        }
 
         public void CheckCategoryEntityDuplicated(string title)
         {

@@ -19,7 +19,7 @@ namespace MB.Presentation.Razor
         
         public void ConfigureServices(IServiceCollection services)
         {
-           Bootstraper.Config(services,Configuration.GetConnectionString("MBConection"));   
+            Bootstrapper.Config(services,Configuration.GetConnectionString("MBConnection"));   
             services.AddRazorPages();
         }
 
