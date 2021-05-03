@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MB.Application.Contracts\MB.Application.Contracts.csproj" />
+    <ProjectReference Include="..\MB.Infrastructure.EfCore\MB.Infrastructure.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>
