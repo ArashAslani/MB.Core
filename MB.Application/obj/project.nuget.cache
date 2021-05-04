@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hcuf0b2xjgJYu7W7IbJHs7rVOWWgND93tKmadDTQ0v7zRgY+hhSV4nUhP8P8vDsXArj/1uG0o5PYzRpv1B82ig==",
+  "dgSpecHash": "BeqyzXttPfKRgcCdKygne5KC+uX0xVQt3HbTreRxOEMzM4VupdzcF+bQrboPqLHBt0VBMa1eqtiHK/cqXAvICw==",
   "success": true,
-  "projectFilePath": "A:\\Project\\MasterBloggger\\MB.Application\\MB.Application.csproj",
+  "projectFilePath": "A:\\Project\\MasterBlogger\\MB.Application\\MB.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LASHA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LASHA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

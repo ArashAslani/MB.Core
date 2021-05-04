@@ -10,3 +10,15 @@ A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Applicati
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.dll
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\ref\MB.Application.Contracts.dll
 A:\Project\MasterBloggger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.pdb
+A:\Project\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.deps.json
+A:\Project\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.dll
+A:\Project\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\ref\MB.Application.Contracts.dll
+A:\Project\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.pdb
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csprojAssemblyReference.cache
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfoInputs.cache
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfo.cs
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csproj.CoreCompileInputs.cache
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.dll
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\ref\MB.Application.Contracts.dll
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.pdb

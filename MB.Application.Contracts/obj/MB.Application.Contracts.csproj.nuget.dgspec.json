@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {}
+    "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {}
   },
   "projects": {
-    "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+    "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "projectUniqueName": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
         "projectName": "MB.Application.Contracts",
-        "projectPath": "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "projectPath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\LASHA\\.nuget\\packages\\",
-        "outputPath": "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\obj\\",
+        "outputPath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

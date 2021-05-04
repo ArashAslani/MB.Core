@@ -17,6 +17,7 @@
                     <th>Title</th>
                     <th>Status</th>
                     <th>Creation Date</th>
+                    <th>Operations</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,11 +29,11 @@
                         <td>
                             @if (!category.IsDeleted)
                             {
-                                <i class="fa fa-check" style="font-size: 36px;color: green"></i>
+                                <i class="fa fa-check fa-2x text-success" style="font-size: 36px;color: green"></i>
                             }
                             else
                             {
-                                <i class="fa fa-close" style="font-size: 36px;color: red"></i>
+                                <i class="fa fa-close fa-2x text-danger" style="font-size: 36px;color: red"></i>
                             }
                         </td>
                         <td>@category.CreationDate</td>

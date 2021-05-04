@@ -1072,12 +1072,16 @@
         }
       },
       "MB.Domain/1.0.0": {
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "runtime": {
           "MB.Domain.dll": {}
         }
       },
       "MB.Infrastructure.EfCore/1.0.0": {
         "dependencies": {
+          "MB.Application.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",

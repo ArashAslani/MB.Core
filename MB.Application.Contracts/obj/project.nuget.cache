@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NUDD3VpENXn4ir50oBKkkiQf4VjGTYjRKMa7W/3e6QWC9wzN+DSYYoUiHfC4CskTxE6Lp9J/ror1WGmZrSUK1g==",
+  "dgSpecHash": "5/56jCFuYREGbXPuN/zwI0j5loRi3ZPA7Tq2Y/XQIjHz0l6JkxjYBmaYnGhvZM1McttRVCw+DglrLKhqMzvcXw==",
   "success": true,
-  "projectFilePath": "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+  "projectFilePath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

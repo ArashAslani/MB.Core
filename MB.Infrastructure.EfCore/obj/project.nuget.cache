@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NELljt0fK5LARX/qfRj98S89w1gkQJyPeUHjnnX9FZK9px9U4WVUFMAPPQWg+XGfxqEaxmP1cJERN211WRjBjg==",
+  "dgSpecHash": "hcNEgzuMyQqgtf9p8FwNPXU9t7KDodRnBgz+kxO69SnVxFIuvlx5pey8Ha8RWiYwBembTPZmnaskgukXV4+4Dw==",
   "success": true,
-  "projectFilePath": "A:\\Project\\MasterBloggger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+  "projectFilePath": "A:\\Project\\MasterBlogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LASHA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LASHA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

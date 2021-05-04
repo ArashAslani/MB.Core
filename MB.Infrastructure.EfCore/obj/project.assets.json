@@ -1520,9 +1520,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      },
       "MB.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -5798,6 +5811,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
+      "msbuildProject": "../MB.Application.Contracts/MB.Application.Contracts.csproj"
+    },
     "MB.Domain/1.0.0": {
       "type": "project",
       "path": "../MB.Domain/MB.Domain.csproj",
@@ -5806,6 +5824,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MB.Application.Contracts >= 1.0.0",
       "MB.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
@@ -5820,11 +5839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Project\\MasterBloggger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+      "projectUniqueName": "A:\\Project\\MasterBlogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
       "projectName": "MB.Infrastructure.EfCore",
-      "projectPath": "A:\\Project\\MasterBloggger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+      "projectPath": "A:\\Project\\MasterBlogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
       "packagesPath": "C:\\Users\\LASHA\\.nuget\\packages\\",
-      "outputPath": "A:\\Project\\MasterBloggger\\MB.Infrastructure.EfCore\\obj\\",
+      "outputPath": "A:\\Project\\MasterBlogger\\MB.Infrastructure.EfCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5845,8 +5864,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "A:\\Project\\MasterBloggger\\MB.Domain\\MB.Domain.csproj": {
-              "projectPath": "A:\\Project\\MasterBloggger\\MB.Domain\\MB.Domain.csproj"
+            "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            },
+            "A:\\Project\\MasterBlogger\\MB.Domain\\MB.Domain.csproj": {
+              "projectPath": "A:\\Project\\MasterBlogger\\MB.Domain\\MB.Domain.csproj"
             }
           }
         }

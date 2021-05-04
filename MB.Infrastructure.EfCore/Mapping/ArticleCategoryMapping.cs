@@ -13,6 +13,9 @@ namespace MB.Infrastructure.EfCore.Mapping
             builder.Property(x => x.Title).HasMaxLength(30).IsRequired();
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.CreationDate).IsRequired();
+
+            builder.HasMany(x => x.Articles).WithOne(x => x.ArticleCategory)
+                .HasForeignKey(x => x.CategoryId);
         }
     }
 }

@@ -1547,6 +1547,9 @@
       "MB.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -1573,6 +1576,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "MB.Application.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
@@ -5893,11 +5897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Project\\MasterBloggger\\MB.Presentation.Razor\\MB.Presentation.Razor.csproj",
+      "projectUniqueName": "A:\\Project\\MasterBlogger\\MB.Presentation.Razor\\MB.Presentation.Razor.csproj",
       "projectName": "MB.Presentation.Razor",
-      "projectPath": "A:\\Project\\MasterBloggger\\MB.Presentation.Razor\\MB.Presentation.Razor.csproj",
+      "projectPath": "A:\\Project\\MasterBlogger\\MB.Presentation.Razor\\MB.Presentation.Razor.csproj",
       "packagesPath": "C:\\Users\\LASHA\\.nuget\\packages\\",
-      "outputPath": "A:\\Project\\MasterBloggger\\MB.Presentation.Razor\\obj\\",
+      "outputPath": "A:\\Project\\MasterBlogger\\MB.Presentation.Razor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5918,11 +5922,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
-              "projectPath": "A:\\Project\\MasterBloggger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
             },
-            "A:\\Project\\MasterBloggger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
-              "projectPath": "A:\\Project\\MasterBloggger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
+            "A:\\Project\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
+              "projectPath": "A:\\Project\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
             }
           }
         }
