@@ -15,9 +15,12 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public DateTime CreationDate { get; private set; }
 
+<<<<<<< HEAD
         public ICollection<Article> Articles { get; set; }
 
 
+=======
+>>>>>>> 5a22cc78532842209f5737cad100d2fc5b9a1b67
         protected ArticleCategory()
         {
 

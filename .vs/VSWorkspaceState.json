@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MB.Presentation.Razor"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\MasterBlogger.sln",
+=======
+  "SelectedNode": "\\MB.Presentation.Razor\\Startup.cs",
+>>>>>>> 5a22cc78532842209f5737cad100d2fc5b9a1b67
   "PreviewInSolutionExplorer": false
 }

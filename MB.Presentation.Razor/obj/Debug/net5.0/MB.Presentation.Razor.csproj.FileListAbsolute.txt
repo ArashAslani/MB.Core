@@ -90,6 +90,7 @@ A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\ref\MB.Presentation.Razor.dll
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.pdb
 A:\Project\MasterBloggger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.genruntimeconfig.cache
+<<<<<<< HEAD
 A:\Project\MasterBlogger\MB.Presentation.Razor\bin\Debug\net5.0\appsettings.Development.json
 A:\Project\MasterBlogger\MB.Presentation.Razor\bin\Debug\net5.0\appsettings.json
 A:\Project\MasterBlogger\MB.Presentation.Razor\bin\Debug\net5.0\MB.Presentation.Razor.exe
@@ -183,3 +184,5 @@ A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.
 A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.genruntimeconfig.cache
 A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.Razor.csprojAssemblyReference.cache
 A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs
+=======
+>>>>>>> 5a22cc78532842209f5737cad100d2fc5b9a1b67
