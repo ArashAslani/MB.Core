@@ -30,5 +30,16 @@ namespace MB.Infrastructure.EfCore.Repositories
                     ArticleCategory = x.ArticleCategory.Title
                 }).ToList();
         }
+
+        public void Add(Article entity)
+        {
+            _context.Articles.Add(entity);
+            Save();
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
     }
 }

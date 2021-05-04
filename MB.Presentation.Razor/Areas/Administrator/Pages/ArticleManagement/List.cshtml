@@ -46,14 +46,14 @@
                             <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Rename</a>
                             @if (article.IsDeleted)
                             {
-                                <form method="post" asp-page-handler="Activate" class="float-left">
+                                <form method="post" asp-page-handler="Activate">
                                     <button class="btn btn-success">Activate</button>
                                     <input type="hidden" name="Id" value="@article.Id" />
                                 </form>
                             }
                             else
                             {
-                                <form method="post" asp-page-handler="Deactivate" class="float-left">
+                                <form method="post" asp-page-handler="Deactivate">
                                     <button class="btn btn-danger">Deactivate</button>
                                     <input type="hidden" name="Id" value="@article.Id" />
                                 </form>

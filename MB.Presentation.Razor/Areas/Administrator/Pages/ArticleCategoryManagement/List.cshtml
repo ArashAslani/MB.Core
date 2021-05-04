@@ -38,17 +38,17 @@
                         </td>
                         <td>@category.CreationDate</td>
                         <td>
-                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@category.Id">Rename</a>
+                            <a class="btn btn-warning float-left" asp-page="./Edit" asp-route-id="@category.Id">Rename</a>
                             @if (category.IsDeleted)
                             {
-                                <form method="post" asp-page-handler="Activate" class="float-left">
+                                <form method="post" asp-page-handler="Activate">
                                     <button class="btn btn-success">Activate</button>
                                     <input type="hidden" name="Id" value="@category.Id"/>
                                 </form>
                             }
                             else
                             {
-                                <form method="post" asp-page-handler="Deactivate" class="float-left">
+                                <form method="post" asp-page-handler="Deactivate">
                                     <button class="btn btn-danger">Deactivate</button>
                                     <input type="hidden" name="Id" value="@category.Id"/>
                                 </form>

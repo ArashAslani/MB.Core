@@ -16,7 +16,6 @@ namespace MB.Infrastructure.Core
         public static void Config(IServiceCollection services , string connectionString)
         {
             services.AddDbContext<MBContext>(option => option.UseSqlServer(connectionString));
-<<<<<<< HEAD:MB.Infrastructure.Core/Bootstrapper.cs
 
             services.AddTransient<IArticleCategoryValidatorService, ArticleCategoryValidatorService>();
             services.AddTransient<IArticleCategoryApplication , ArticleCategoryApplication>();
@@ -25,12 +24,10 @@ namespace MB.Infrastructure.Core
             services.AddTransient<IArticleApplication, ArticleApplication>();
             services.AddTransient<IArticleRepository, ArticleRepository>();
 
-=======
             services.AddTransient<IArticleCategoryValidatorService, ArticleCategoryValidatorService>();
             services.AddTransient<IArticleCategoryApplication , ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
-          
->>>>>>> 5a22cc78532842209f5737cad100d2fc5b9a1b67:MB.Infrastructure.Core/Bootstraper.cs
+            
         }
     }
 }
