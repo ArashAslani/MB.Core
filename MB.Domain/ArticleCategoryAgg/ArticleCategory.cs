@@ -24,6 +24,7 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public ArticleCategory(string title , IArticleCategoryValidatorService validatorService)
         {
+            Validate(title);
             Title = title;
             validatorService.CheckCategoryEntityDuplicated(title);
             IsDeleted = false;
@@ -33,7 +34,14 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public void Rename(string title)
         {
+            Validate(title);
             Title = title; 
+        }
+
+        private static void Validate(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
         }
 
         public void Deactivate()

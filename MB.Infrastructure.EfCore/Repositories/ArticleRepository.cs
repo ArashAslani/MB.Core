@@ -42,6 +42,11 @@ namespace MB.Infrastructure.EfCore.Repositories
             return _context.Articles.FirstOrDefault(x => x.Id == id);
         }
 
+        public bool Exist(string title)
+        {
+            return _context.Articles.Any(x => x.Title.Contains(title));
+        }
+
         public void Save()
         {
             _context.SaveChanges();

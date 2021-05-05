@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using MB.Domain.ArticleCategoryAgg;
 
 namespace MB.Domain.ArticleAgg
@@ -38,6 +39,15 @@ namespace MB.Domain.ArticleAgg
             Content = content;
             Picture = picture;
             CategoryId = categoryId;
+        }
+
+        private static void Validate(string title,int articleCategoryId)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
+            if (articleCategoryId == 0)
+                throw new ArgumentOutOfRangeException();
+
         }
 
         public void Activate()
