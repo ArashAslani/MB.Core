@@ -23,7 +23,8 @@ namespace MB.Infrastructure.EfCore
             _dbContext.ArticleCategories.Add(entity);
             Save();
         }
-            
+
+
         public ArticleCategory GetBy(int id)
         {
            return _dbContext.ArticleCategories.FirstOrDefault(x => x.Id == id);

@@ -21,3 +21,4 @@ A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Applicatio
 A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.dll
 A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\ref\MB.Application.Contracts.dll
 A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.pdb
+A:\Project\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csprojAssemblyReference.cache
