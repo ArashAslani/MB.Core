@@ -39,5 +39,15 @@ namespace MB.Domain.ArticleAgg
             Picture = picture;
             CategoryId = categoryId;
         }
+
+        public void Activate()
+        {
+            IsDeleted = false;
+        }
+
+        public void Deactivate()
+        {
+            IsDeleted = true;
+        }
     }
 }

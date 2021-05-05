@@ -2,6 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
+using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace MB.Application
 {
@@ -45,6 +46,20 @@ namespace MB.Application
                 Picture = article.Picture,
                 ArticleCategoryId = article.CategoryId
             };
+        }
+
+        public void Activate(long id)
+        {
+            var article = _articleRepository.GetBy(id);
+            article.Activate();
+            _articleRepository.Save();
+        }
+
+        public void Deativate(long id)
+        {
+            var article = _articleRepository.GetBy(id);
+            article.Deactivate();
+            _articleRepository.Save();
         }
     }
 }
