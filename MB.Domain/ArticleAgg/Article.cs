@@ -23,6 +23,7 @@ namespace MB.Domain.ArticleAgg
 
         public Article(string title, string picture, string shortDescription, string content, int categoryId)
         {
+            Validate(title,categoryId);
             Title = title;
             ShortDescription = shortDescription;
             Content = content;
@@ -34,6 +35,7 @@ namespace MB.Domain.ArticleAgg
 
         public void Edit(string title, string picture, string shortDescription, string content, int categoryId)
         {
+            Validate(title,CategoryId);
             Title = title;
             ShortDescription = shortDescription;
             Content = content;

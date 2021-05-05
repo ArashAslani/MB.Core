@@ -7,6 +7,7 @@ using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Infrastructure.EfCore;
 using MB.Infrastructure.EfCore.Repositories;
+using MB.Infrastructure.View;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -26,10 +27,7 @@ namespace MB.Infrastructure.Core
             services.AddTransient<IArticleApplication, ArticleApplication>();
             services.AddTransient<IArticleRepository, ArticleRepository>();
 
-            services.AddTransient<IArticleCategoryValidatorService, ArticleCategoryValidatorService>();
-            services.AddTransient<IArticleCategoryApplication , ArticleCategoryApplication>();
-            services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
-            
+            services.AddTransient<IArticleView, ArticleViewQuery>();
         }
     }
 }

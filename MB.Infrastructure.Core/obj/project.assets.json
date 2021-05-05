@@ -1574,6 +1574,19 @@
         "runtime": {
           "bin/placeholder/MB.Infrastructure.EfCore.dll": {}
         }
+      },
+      "MB.Infrastructure.View/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Infrastructure.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.Infrastructure.View.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Infrastructure.View.dll": {}
+        }
       }
     }
   },
@@ -5862,12 +5875,18 @@
       "type": "project",
       "path": "../MB.Infrastructure.EfCore/MB.Infrastructure.EfCore.csproj",
       "msbuildProject": "../MB.Infrastructure.EfCore/MB.Infrastructure.EfCore.csproj"
+    },
+    "MB.Infrastructure.View/1.0.0": {
+      "type": "project",
+      "path": "../MB.Infrastructure.View/MB.Infrastructure.View.csproj",
+      "msbuildProject": "../MB.Infrastructure.View/MB.Infrastructure.View.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "MB.Application >= 1.0.0",
       "MB.Application.Contracts >= 1.0.0",
+      "MB.Infrastructure.View >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.1"
     ]
   },
@@ -5908,6 +5927,9 @@
             },
             "A:\\Project\\MasterBlogger\\MB.Application\\MB.Application.csproj": {
               "projectPath": "A:\\Project\\MasterBlogger\\MB.Application\\MB.Application.csproj"
+            },
+            "A:\\Project\\MasterBlogger\\MB.Infrastructure.View\\MB.Infrastructure.View.csproj": {
+              "projectPath": "A:\\Project\\MasterBlogger\\MB.Infrastructure.View\\MB.Infrastructure.View.csproj"
             }
           }
         }

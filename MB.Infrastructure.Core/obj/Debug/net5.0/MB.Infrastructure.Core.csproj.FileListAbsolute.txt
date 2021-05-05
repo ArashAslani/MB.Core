@@ -40,3 +40,5 @@ A:\Project\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructu
 A:\Project\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.dll
 A:\Project\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\ref\MB.Infrastructure.Core.dll
 A:\Project\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.pdb
+A:\Project\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.View.dll
+A:\Project\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.View.pdb

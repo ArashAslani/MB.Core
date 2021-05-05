@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MB.Application.Contracts\MB.Application.Contracts.csproj" />
     <ProjectReference Include="..\MB.Application\MB.Application.csproj" />
+    <ProjectReference Include="..\MB.Infrastructure.View\MB.Infrastructure.View.csproj" />
   </ItemGroup>
 
 </Project>
