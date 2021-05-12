@@ -95,3 +95,4 @@ A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\MB.Presentation.
 A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs
 A:\Project\MasterBlogger\MB.Presentation.Razor\bin\Debug\net5.0\MB.Infrastructure.View.dll
 A:\Project\MasterBlogger\MB.Presentation.Razor\bin\Debug\net5.0\MB.Infrastructure.View.pdb
+A:\Project\MasterBlogger\MB.Presentation.Razor\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\CommentManagement\List.cshtml.g.cs

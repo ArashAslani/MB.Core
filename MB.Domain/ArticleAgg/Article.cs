@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.CommentAgg;
 
 namespace MB.Domain.ArticleAgg
 {
@@ -15,6 +18,7 @@ namespace MB.Domain.ArticleAgg
         public DateTime CreationDate { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
         public int CategoryId { get; private set; }
+        public ICollection<Comment> Comments { get; set; }
 
         public Article()
         {
@@ -31,6 +35,7 @@ namespace MB.Domain.ArticleAgg
             IsDeleted = false;
             CreationDate = DateTime.Now;
             CategoryId = categoryId;
+            Comments = new List<Comment>();
         }
 
         public void Edit(string title, string picture, string shortDescription, string content, int categoryId)

@@ -16,7 +16,7 @@ namespace MB.Presentation.Razor.Pages
 
         public void OnGet()
         {
-            ArticleViews = _articles.getArticleViews();
+            ArticleViews = _articles.GetArticleViews();
         }
     }
 }

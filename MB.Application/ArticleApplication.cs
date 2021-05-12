@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
-using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace MB.Application
 {

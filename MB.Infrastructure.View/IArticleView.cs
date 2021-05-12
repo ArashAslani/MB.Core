@@ -5,6 +5,7 @@ namespace MB.Infrastructure.View
 {
     public interface IArticleView
     {
-        List<ArticleView> getArticleViews();
+        List<ArticleView> GetArticleViews();
+        ArticleView GetArticleView(long id);
     }
 }
