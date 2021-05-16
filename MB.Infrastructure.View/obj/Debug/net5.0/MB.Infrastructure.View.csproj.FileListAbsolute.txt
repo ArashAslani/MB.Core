@@ -2,10 +2,12 @@ A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Infrastructu
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Infrastructure.View.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\ref\MB.Infrastructure.View.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Infrastructure.View.pdb
+A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\Base_FrameWork.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Application.Contracts.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Domain.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Infrastructure.EfCore.dll
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Infrastructure.EfCore.pdb
+A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\Base_FrameWork.pdb
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Application.Contracts.pdb
 A:\Project\MasterBlogger\MB.Infrastructure.View\bin\Debug\net5.0\MB.Domain.pdb
 A:\Project\MasterBlogger\MB.Infrastructure.View\obj\Debug\net5.0\MB.Infrastructure.View.csprojAssemblyReference.cache

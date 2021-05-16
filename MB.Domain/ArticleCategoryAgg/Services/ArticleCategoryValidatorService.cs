@@ -1,5 +1,4 @@
-﻿using System;
-using MB.Domain.ArticleCategoryAgg.Exception;
+﻿using MB.Domain.ArticleCategoryAgg.Exception;
 
 namespace MB.Domain.ArticleCategoryAgg.Services
 {
@@ -14,7 +13,7 @@ namespace MB.Domain.ArticleCategoryAgg.Services
 
         public void CheckCategoryEntityDuplicated(string title)
         {
-            if (_articleCategoryRepository.Exists(title))
+            if (_articleCategoryRepository.Exist(x=>x.Title==title))
             {
                 throw new DuplicatedCategoryEntityException("This record is already exist");
             }

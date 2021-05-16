@@ -1,0 +1,12 @@
+A:\Project\MasterBlogger\Base_FrameWork\bin\Debug\net5.0\Base_FrameWork.deps.json
+A:\Project\MasterBlogger\Base_FrameWork\bin\Debug\net5.0\Base_FrameWork.dll
+A:\Project\MasterBlogger\Base_FrameWork\bin\Debug\net5.0\ref\Base_FrameWork.dll
+A:\Project\MasterBlogger\Base_FrameWork\bin\Debug\net5.0\Base_FrameWork.pdb
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.csprojAssemblyReference.cache
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.AssemblyInfoInputs.cache
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.AssemblyInfo.cs
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.csproj.CoreCompileInputs.cache
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.dll
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\ref\Base_FrameWork.dll
+A:\Project\MasterBlogger\Base_FrameWork\obj\Debug\net5.0\Base_FrameWork.pdb

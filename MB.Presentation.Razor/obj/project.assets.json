@@ -1520,6 +1520,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Base_FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Base_FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base_FrameWork.dll": {}
+        }
+      },
       "MB.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1548,6 +1561,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Base_FrameWork": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -5872,6 +5886,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Base_FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../Base_FrameWork/Base_FrameWork.csproj",
+      "msbuildProject": "../Base_FrameWork/Base_FrameWork.csproj"
+    },
     "MB.Application/1.0.0": {
       "type": "project",
       "path": "../MB.Application/MB.Application.csproj",
@@ -5977,7 +5996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

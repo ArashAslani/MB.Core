@@ -1,12 +1,10 @@
-﻿using System;
-using MB.Domain.ArticleAgg;
+﻿using MB.Domain.ArticleAgg;
+using Base_FrameWork;
 
 namespace MB.Domain.CommentAgg
 {
-    public class Comment
+    public class Comment : DomainBase<long>
     {
-        public long Id { get; private set; }
-
         public string Name { get; private set; }
 
         public string Email { get; private set; }
@@ -14,8 +12,6 @@ namespace MB.Domain.CommentAgg
         public string Massage { get; private set; }
 
         public int Status { get; private set; }
-
-        public DateTime CreationDate { get; private set; }
 
         public long ArticleId { get; private set; }
 
@@ -33,7 +29,6 @@ namespace MB.Domain.CommentAgg
             Massage = massage;
             ArticleId = articleId;
             Status = StatusType.New;
-            CreationDate=DateTime.Now;
         }
 
         public void Confirm()

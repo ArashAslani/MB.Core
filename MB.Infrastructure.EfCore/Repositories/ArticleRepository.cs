@@ -1,23 +1,23 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
+using Base_FrameWork;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EfCore.Repositories
 {
-    public class ArticleRepository : IArticleRepository
+    public class ArticleRepository :BaseRepository<long,Article>, IArticleRepository
     {
         private readonly MBContext _context;
 
-        public ArticleRepository(MBContext context)
+        public ArticleRepository(MBContext context) : base(context)
         {
             _context = context;
         }
 
-        public List<ArticleViewModel> GetAll()
+        public List<ArticleViewModel> GetList()
         {
             return _context.Articles.Include(x => x.ArticleCategory).OrderByDescending(x=>x.Id)
                 .Select(x=> new ArticleViewModel
@@ -29,27 +29,6 @@ namespace MB.Infrastructure.EfCore.Repositories
                     IsDeleted = x.IsDeleted,
                     ArticleCategory = x.ArticleCategory.Title
                 }).ToList();
-        }
-
-        public void Add(Article entity)
-        {
-            _context.Articles.Add(entity);
-            Save();
-        }
-
-        public Article GetBy(long id)
-        {
-            return _context.Articles.FirstOrDefault(x => x.Id == id);
-        }
-
-        public bool Exist(string title)
-        {
-            return _context.Articles.Any(x => x.Title.Contains(title));
-        }
-
-        public void Save()
-        {
-            _context.SaveChanges();
         }
     }
 }

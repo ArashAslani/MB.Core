@@ -1,4 +1,5 @@
-﻿using MB.Application;
+﻿using Base_FrameWork.Infrastructure;
+using MB.Application;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Application.Contracts.Comment;
@@ -33,6 +34,8 @@ namespace MB.Infrastructure.Core
             services.AddTransient<ICommentApplication,CommentApplication>();
 
             services.AddTransient<IArticleView, ArticleViewQuery>();
+
+            services.AddTransient<IUnitOfWork,UnitOfWorkEf>();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace MB.Domain.ArticleAgg.Services
 
         public void CheckArticleEntityDuplicated(string title)
         {
-            if (_articleRepository.Exist(title))
+            if (_articleRepository.Exist(x=>x.Title==title))
                 throw new DuplicateWaitObjectException(title);
         }
     }

@@ -14,7 +14,9 @@ A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.deps.json
 A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.dll
 A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\ref\MB.Domain.dll
 A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.pdb
+A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\Base_FrameWork.dll
 A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.dll
+A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\Base_FrameWork.pdb
 A:\Project\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.pdb
 A:\Project\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csprojAssemblyReference.cache
 A:\Project\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig

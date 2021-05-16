@@ -4,6 +4,70 @@
     "A:\\Project\\MasterBlogger\\MB.Infrastructure.View\\MB.Infrastructure.View.csproj": {}
   },
   "projects": {
+    "A:\\Project\\MasterBlogger\\Base_FrameWork\\Base_FrameWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Project\\MasterBlogger\\Base_FrameWork\\Base_FrameWork.csproj",
+        "projectName": "Base_FrameWork",
+        "projectPath": "A:\\Project\\MasterBlogger\\Base_FrameWork\\Base_FrameWork.csproj",
+        "packagesPath": "C:\\Users\\LASHA\\.nuget\\packages\\",
+        "outputPath": "A:\\Project\\MasterBlogger\\Base_FrameWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LASHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -58,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -90,6 +154,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "A:\\Project\\MasterBlogger\\Base_FrameWork\\Base_FrameWork.csproj": {
+                "projectPath": "A:\\Project\\MasterBlogger\\Base_FrameWork\\Base_FrameWork.csproj"
+              },
               "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
                 "projectPath": "A:\\Project\\MasterBlogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
               }
@@ -120,7 +187,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -205,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -267,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

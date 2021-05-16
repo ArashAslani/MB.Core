@@ -1,33 +1,24 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using Base_FrameWork;
 using MB.Application.Contracts.Comment;
 using MB.Domain.CommentAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EfCore.Repositories
 {
-    public class CommentRepository : ICommentRepository
+    public class CommentRepository :BaseRepository<long,Comment>, ICommentRepository
     {
         private readonly MBContext _context;
 
-        public CommentRepository(MBContext context)
+        public CommentRepository(MBContext context) : base(context)
         {
             _context = context;
         }
 
-        public void CreateAndSave(Comment entity)
-        {
-            _context.Comments.Add(entity);
-            Save();
-        }
 
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
-
-        public List<CommentViewModel> GetAll()
+        public List<CommentViewModel>   GetList()
         {
             return _context.Comments.Include(x => x.Article)
                 .Select(x => new CommentViewModel
@@ -42,9 +33,5 @@ namespace MB.Infrastructure.EfCore.Repositories
                 }).ToList();
         }
 
-        public Comment Get(long id)
-        {
-            return _context.Comments.FirstOrDefault(x => x.Id == id);
-        }
     }
 }
